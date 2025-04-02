@@ -1,3 +1,4 @@
+require('dotenv').config();
 const fs = require("fs");
 const keep_alive = require('./keep-alive.js')
 const express = require("express");
